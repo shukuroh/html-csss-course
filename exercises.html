@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercises</title>
+    <style>      
+      .placeholder{
+        background-color: white;
+        width: 20%;
+        margin-left: 50px;
+        margin-top:30%;
+      }
+      .div-class{
+        background-color: black;
+        background-repeat: repeat;
+        height: 800px;
+      }
+    .email-text{
+      color: rgb(96, 96, 96);
+      margin-bottom: 0px;
+      font-size: 20px;
+      font-family: Arial;
+      margin-left: 50px;
+      line-height: 0px;
+    }
+    .email-bar{
+      width: 350px;
+      border-style: solid;
+      cursor: pointer;
+      border-radius: 3px;
+      height: 30px;
+      transition: box-shadow 0.15px;
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+    .email-bar:hover{
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15);
+    }
+    .email-description{
+      color: rgb(96, 96, 96);
+      font-size: 20px;
+      font-family: Arial; 
+      margin-left: 50px;
+      line-height: 10px; 
+    }
+    .agree-button{
+     background-color: rgb(67, 74, 205);
+     color: white;
+     font-size: 20px;
+     font-family: Arial;
+     padding-left: 20px;
+     height: 40px;
+     width: 350px;
+     border-radius: 20px;
+     border-style: none;
+     margin-left: 50px;
+     cursor: pointer;
+    }
+    .cat{
+      height: 40px;
+      margin-top: 10px;
+      border-radius: 30px;
+      vertical-align: middle;
+      margin-bottom: 0px;
+    }
+    .cat-description{
+      color: rgb(96, 96, 96);
+      font-family: Arial;
+      vertical-align: middle;
+    }
+    .tweet-button{
+      background-color: rgb(67, 74, 205);
+      color: white;
+      border-style: none;
+      font-size: 12px;
+      font-family: Arial;
+      height: 30px;
+      width: 65px;
+      border-radius: 15px;
+      font-weight: bold;
+      margin-left: 60px;
+    }
+    .tweet-button,
+    .cat-description,
+    .cat{
+      display: inline-block;
+    }
+    .url-bar{
+     font-size: 20px;
+     width: 350px;
+     margin-left: 12px;
+     border-radius: 15px;
+     border-style: none;
+     color: rgb(96, 96, 96);
+     padding-right: 30px;
+     padding-left: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;  
+     transition: box-shadow 0.15px;
+    }
+    .url-bar:hover {
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.15); 
+    }
+    .search-bar{
+      font-size: 20px;
+      margin-left: 12px;
+      border-radius: 2px;
+     }
+     .search-bar,
+     .url-bar{
+      display: inline-block;
+     }
+  </style>
+  </head>
+  <body>
+    <div class="div-class">
+      <div class="placeholder">
+        <input class="search-bar" type="text" placeholder="search">
+      </div>
+      <div class="type-url">
+        <input class="url-bar" type="text" placeholder="Search Google or type URL">
+      </div>
+      <div class="email-text">
+        <P class="email-text">
+          Email
+        </P> <br>
+      </div>
+      <div class="text">
+        <input class="email-bar" type="text"> <br>
+      </div>
+      <div class="email">
+        <p class="email-description">
+          By clicking Agree & Join, you agree to the privacy policy
+        </p>
+      </div>
+      <div class="button">
+        <button class="agree-button">
+          Agree & Join
+       </button> <br>
+      </div>
+      <div class="brown-cat">
+        <img class="cat" src="../brown-cat/cat.jpeg"> 
+        <p class="cat-description"> What's happening &quest;</p>
+        <button class="tweet-button">
+          Tweet
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
