@@ -2,23 +2,237 @@
 <html>
   <head>
     <title>Youtube.com Clone</title>
-    <style>
-      .thumbnail {
-       width: 300px;
-      }
-      .search-bar{
-        font-size: 20px;
-        margin-left: 12px;
-      }
-      .image{
-        width: 300px;
-        border-radius: 700px;
-      }
-    </style>
-  </head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/video.css">
+   </head>
   <body>
-    <img class="thumbnail" src="thumbnail/thumbnail.webp">
-    <input class="search-bar" type="text" placeholder="search">
-    <img class="image" src="thumbnail/thumbnail.webp">
+    <div class="header">
+      <div class="left-section">
+        <img class="sidebar-icon" src="../image/sidebar-icon.png">
+        <img class="youtube-logo" src="../image/youtube-logo.png">
+      </div>
+      <div class="middle-section">
+       <input class="search-bar" type="text" placeholder="Search">
+       <button class="search-button">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <!-- <img src="../image/search-logo.png"> -->
+       </button>
+       <button class="microphone-button">
+        <i class="fa-solid fa-microphone"></i>
+        <!-- <img src="../image/microphone-icon.png"> -->
+       </button>
+      </div>
+      <div class="right-section">
+        <i class="fa-solid fa-video-plus"></i>
+        <i class="fa-thin fa-video-plus"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-microphone"></i>
+        <!-- <img class="search-logo" src="../image/search-logo.png"> -->
+        <!-- <img class="microphone-icon" src="../image/microphone-icon.png"> -->
+        <!-- <img class="create-icon" src="../image/create-icon.png"> -->
+        <!-- <img class="notification-icon" src="../image/notification-icon.png"> -->
+        <!-- <img class="profile-picture" src="../image/profile-picture.jpg"> -->
+      </div>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/fontend.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Frontend web development - a complete overview
+            </p>
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              235k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/framework.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              What is a Javascript Framework &#63; (in detail)
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              146k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/fulljavascript.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Javascript Full Course (2023) - Beginner to pro - Part2 Lesson 14
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              112k Views &#183; 3 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/fulljavascript 1.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Javascript full Course (2023) - Beginner to pro - part2 Lesson 15
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              15k Views &#183; 9 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/hqdefault 2.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Git and Github - 0 Experience to professional in 1 Tutorial (Part2)
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              83k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/hqdefault 2.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Git and Github - 0 Experience to professional in 1 Tutorial (Part1)
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              208k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/hqdefault 2.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Git and Github - 0 Experience to professional in 1 Tutorial (Part2)
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              83k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/hqdefault 2.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Git and Github - 0 Experience to professional in 1 Tutorial (Part2)
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              83k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="frontend-row">
+          <img class="frontend" src="../image/hqdefault 2.webp">
+        </div>
+        <div class="video-info-grid">
+          <!-- <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div> -->
+          <div class="video-info">
+            <p class="video-title">
+              Git and Github - 0 Experience to professional in 1 Tutorial (Part2)
+            </p>
+            <!-- <p class="video-author">
+              SuperSimpleDev
+            </p> -->
+            <p class="video-stats">
+              83k Views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div> 
+    </div>
   </body>
 </html>
