@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/video.css">
+    <link rel="stylesheet" href="../styles/sidebar.css">
    </head>
   <body>
     <div class="header">
@@ -25,10 +26,15 @@
        </button>
       </div>
       <div class="right-section">
-        <i class="fa-solid fa-video-plus"></i>
-        <i class="fa-thin fa-video-plus"></i>
-        <i class="fa-solid fa-bell"></i>
-        <i class="fa-solid fa-microphone"></i>
+        <i class="fa-solid fa-video"></i>
+        <div class="bell-container">
+          <i class="fa-solid fa-bell"></i>
+          <div class="notification-count">3</div>
+        </div>
+        <i class="fas fa-th"></i>
+        <button class="user">
+          <i class="fa-solid fa-user"></i>
+        </button>
         <!-- <img class="search-logo" src="../image/search-logo.png"> -->
         <!-- <img class="microphone-icon" src="../image/microphone-icon.png"> -->
         <!-- <img class="create-icon" src="../image/create-icon.png"> -->
@@ -36,10 +42,39 @@
         <!-- <img class="profile-picture" src="../image/profile-picture.jpg"> -->
       </div>
     </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+         <i class="fa-solid fa-house"></i>
+        <!-- <img src="../image/home-icon.png"> -->
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="../image/shorts-icon.png">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="../image/subscription-icon.png">
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="../image/original.png">
+        <div>Original</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="../image/music-icon.png">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="../image/video-clip.png">
+        <div>Library</div>
+      </div>
+      <!-- <i class="fa-brands fa-square-youtube"></i> -->
+    </div>
     <div class="video-grid">
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/fontend.webp">
+          <div class="video-time"> 14:20 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -62,6 +97,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/framework.webp">
+          <div class="video-time"> 16:20 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -84,6 +120,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/fulljavascript.webp">
+          <div class="video-time"> 24:20 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -106,6 +143,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/fulljavascript 1.webp">
+          <div class="video-time"> 34:20 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -128,6 +166,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/hqdefault 2.webp">
+          <div class="video-time"> 14:40 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -150,6 +189,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/hqdefault 2.webp">
+          <div class="video-time"> 11:50 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -172,6 +212,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/hqdefault 2.webp">
+          <div class="video-time"> 24:40 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -194,6 +235,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/hqdefault 2.webp">
+          <div class="video-time"> 54:20 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
@@ -215,6 +257,7 @@
       <div class="video-preview">
         <div class="frontend-row">
           <img class="frontend" src="../image/hqdefault 2.webp">
+          <div class="video-time"> 19:20 </div>
         </div>
         <div class="video-info-grid">
           <!-- <div class="channel-picture">
